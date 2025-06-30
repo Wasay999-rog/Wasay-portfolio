@@ -262,7 +262,7 @@ export default function Home() {
         <p className="text-gray-300">Feel free to connect with me via LinkedIn or email.</p>
         <ul className="text-gray-400 space-y-1 mb-6">
           <li>Email: mohammedwasay69@outlook.com</li>
-          <li>LinkedIn: linkedin.com/in/wasay-mubashar-mohammed-4a1468268</li>
+          <li>LinkedIn: linkedin.com/in/wasay-mubashar-m</li>
         </ul>
 
         <form className="space-y-4 max-w-xl" onSubmit={handleSubmit}>
