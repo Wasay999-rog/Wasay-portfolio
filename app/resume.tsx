@@ -16,7 +16,7 @@ export default function Resume() {
             <FaGithub className="text-2xl" />
           </a>
           <a
-            href="https://linkedin.com/in/wasay-mohammed"
+            href="https://linkedin.com/in/wasay-m"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors"
@@ -44,8 +44,8 @@ export default function Resume() {
         <div className="bg-[#1a1a1a] border border-gray-800 rounded-2xl shadow-lg p-8 mb-8">
           <h1 className="text-3xl font-bold mb-4">Wasay Mohammed</h1>
           <p className="text-gray-300 mb-2">
-            United States of America | +1-469-248-5813 | mohammedwasay69@outlook.com |{" "}
-            <a href="https://linkedin.com/in/wasay-mohammed" className="text-green-500 hover:text-green-400">
+            United States of America | +1-773-587-1084 | mohammedwasay69@outlook.com |{" "}
+            <a href="https://linkedin.com/in/wasay-m" className="text-green-500 hover:text-green-400">
               LinkedIn
             </a>
           </p>
