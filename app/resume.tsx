@@ -52,10 +52,10 @@ export default function Resume() {
 
           <h2 className="text-xl font-semibold mt-6 mb-2 border-b border-gray-700 pb-1">SUMMARY</h2>
           <p className="text-gray-300">
-            Experienced Data Analyst with over 3 years of experience in automating data processes and driving insights.
-            Achieved a 40% improvement in data accuracy and reduced reconciliation time by 25% through innovative SQL
-            and Power BI solutions. Adept in Python, SQL, and data modeling, with a proven ability to optimize data
-            systems and support strategic decision-making.
+            Analytical and results-driven Data & Analytics Engineer with 3+ years of experience building scalable data pipelines, real-time
+            dashboards, and predictive models.Expert in designing ETL workflows and automating data integration using Python, SQL,
+            Airflow, Snowflake, and AWS. Known for transforming complex datasets into actionable insights, reducing latency, and
+            enabling data-driven decisions across teams.
           </p>
 
           <h2 className="text-xl font-semibold mt-6 mb-2 border-b border-gray-700 pb-1">EDUCATION</h2>
@@ -76,85 +76,59 @@ export default function Resume() {
 
           <div className="mb-4">
             <div className="flex justify-between">
-              <p className="font-medium">Sutherland | Data Analyst</p>
+              <p className="font-medium">Sutherland | Data Engineer</p>
               <p>Oct 2020 - Oct 2022</p>
             </div>
             <ul className="list-disc pl-5 mt-2 text-gray-300 space-y-1">
               <li>
-                Automated routine data processing tasks using SQL and Microsoft Power Automate, reducing manual effort
-                by saving 15+ hours per week.
+                Automated ingestion of multi-source data by designing 15 modular ETL pipelines in Python & Airflow, implemented retry  
+                logic, dynamic scheduling, and data validation boosting data accuracy by 40% and shortened reconciliation time by 25%
               </li>
               <li>
                 Reviewed and verified financial and operational datasets to ensure compliance with client standards and
                 regulatory requirements.
               </li>
               <li>
-                Developed an automated financial data review and reporting system that enhanced data accuracy by 40% and
-                reduced quarterly reconciliation time by 25%, illustrating strong data modeling and mining capabilities.
+                Optimized Snowflake pipelines using clustering & partitioning, supporting real-time dashboards and reduced average query
+                latency by 30%, improving executive reporting speed.
               </li>
               <li>
-                Analyzed over 1 million records to uncover trends and patterns, contributing to a 15% improvement in
-                data-driven decision-making and accelerating project delivery by two weeks.
+                Deployed CI/CD workflows with GitHub Actions and automated testing & deployment, shortening release cycles by 20%
+                and enhancing deployment consistency.
               </li>
               <li>
-                Designed and maintained interactive dashboards using Power BI, providing real-time insights and enabling
-                agile responses to business needs.
+                Developed Python-based data monitoring scripts to detect anomalies and schema drift, proactively addressed data quality
+                issues and minimized downtime incidents.
+              </li>
+              <li>
+                Led Agile sprint ceremonies (planning & retrospectives) using Jira, coordinated with engineers, analysts, and PMs to improve
+                cross-team alignment and reduced bug resolution time by 18%.
               </li>
             </ul>
           </div>
 
           <div className="mb-4">
             <div className="flex justify-between">
-              <p className="font-medium">Mahindra Finance | Junior Credit Risk Analyst</p>
+              <p className="font-medium">Mahindra Finance |  Credit Risk Analyst</p>
               <p>Oct 2019 - Sep 2020</p>
             </div>
             <ul className="list-disc pl-5 mt-2 text-gray-300 space-y-1">
               <li>
-                Extracted and analyzed data from 500+ credit applications using SQL to assess financial risk metrics and
-                ensure data integrity.
+                Analyzed 80K+ loan applications using Python & SQL, performed scenario & stress testing for risk evaluation.
               </li>
               <li>
-                Led an A/B testing campaign utilizing statistical models to evaluate creditworthiness and support
-                data-driven risk assessment.
+                Executed A/B tests on credit scoring models to refine predictive accuracy and supported data-driven lending strategies.
               </li>
               <li>
-                Automated risk reporting processes with Power BI and AWS Redshift, enhancing scalability and efficiency
-                in cloud-based data warehousing.
+                Presented dashboards & insights to non-technical stakeholders for data-based decision making.
               </li>
               <li>
-                Collaborated with cross-functional teams, including finance, analytics, and product management, to drive
-                strategic, data-driven initiatives.
-              </li>
-              <li>
-                Conducted stress testing and scenario analysis on 80K+ customer records using Python and SQL queries,
-                ensuring robust risk evaluation.
+                Automated credit risk reporting with Power BI dashboards backed by AWS Redshift to removed manual updates and saved
+                30% of reporting effort and improved data freshness.
               </li>
               <li>
                 Built and optimized ETL pipelines for extracting, transforming, and loading customer risk data into AWS
                 Redshift, improving data processing speed by 30%.
-              </li>
-            </ul>
-          </div>
-
-          <div className="mb-4">
-            <div className="flex justify-between">
-              <p className="font-medium">Panzer Technology | Data Analyst-Intern</p>
-              <p>May 2019 - Sep 2019</p>
-            </div>
-            <ul className="list-disc pl-5 mt-2 text-gray-300 space-y-1">
-              <li>
-                Executed data extraction and cleaning processes on over 500,000 sales transaction records from SQL
-                databases using Python libraries (Pandas, NumPy), achieving a 99% accuracy rate in data integrity and
-                consistency which facilitated more reliable analytics.
-              </li>
-              <li>
-                Conducted comprehensive exploratory data analysis (EDA) involving trend analyses of seasonal sales
-                patterns and correlation studies across 10 key variables, identifying three primary sales drivers that
-                contributed to a forecasted revenue increase of 15% in the next quarter.
-              </li>
-              <li>
-                Tracked and analyzed key performance indicators (KPIs) such as customer acquisition cost, average order
-                value, and conversion rates to provide actionable insights.
               </li>
             </ul>
           </div>
@@ -187,6 +161,18 @@ export default function Resume() {
             </ul>
           </div>
 
+          <div className="mb-4">
+            <p className="font-medium">Synthetic Data Generator for Privacy  | Personal Project</p>
+            <ul className="list-disc pl-5 mt-2 text-gray-300 space-y-1">
+              <li>
+                Created a synthetic data tool that mimicked real datasets with 95%+ fidelity, enabling safe use of sensitive data.
+              </li>
+              <li>Built the solution using Python, CTGAN, and AWS (S3 + Lambda), applying privacy filters that reduced identifiable attributes.</li>
+            </ul>
+          </div>
+
+          
+
           <h2 className="text-xl font-semibold mt-6 mb-2 border-b border-gray-700 pb-1">SKILLS & INTERESTS</h2>
           <ul className="list-disc pl-5 text-gray-300 space-y-1">
             <li>
@@ -198,6 +184,9 @@ export default function Resume() {
             </li>
             <li>
               <span className="font-medium">Programming & Statistical Tools:</span> Python (pandas, Numpy), R, Java
+            </li>
+            <li>
+              <span className="font-medium">Data Engineering & ETL:</span> Airflow, AWS , Snowflake, Azure, SSIS, REST APIs, CI/CD, ETL, dbt, GIT
             </li>
             <li>
               <span className="font-medium">Additional Tools:</span> Microsoft 365(Powerquery, power pivot, tables,
